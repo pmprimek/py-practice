@@ -1,7 +1,7 @@
 # Check whether a person is eligible to vote.
 person = int(input("enter your age eligible to vote: "))
 
-if(18>=age):
+if(person >=18 ):
     print('you are eliglible to vote')
 
 else:
